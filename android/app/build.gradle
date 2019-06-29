@@ -116,10 +116,19 @@ android {
             include "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
         }
     }
+    signingConfigs {
+      release {
+        storeFile file('amfolio-persian-tts.keystore')
+        storePassword System.console().readLine("\nKeystore password:")
+        keyAlias System.console().readLine("\nAlias: ")
+        keyPassword System.console().readLine("\Alias password: ")
+      }
+    }
     buildTypes {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
         }
     }
     // applicationVariants are e.g. debug, release
