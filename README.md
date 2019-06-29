@@ -94,7 +94,7 @@ This project's structure is just identical to many other ReactNative project str
   - **Router.js :** React-Navigation component configurations
   - **voices.json :** Application wide available voices configs
 
-## ✈️ How it works
+## 🛠 How it works
 
 Shortly the project uses a "concatnative synthesizing" apprach to achieve it's goal. In persian language, an unlimited set of words could be constructed by concatnating "consonant+vowel" pairs. For bravity here we call these pairs simply "Syllables".
 
@@ -197,7 +197,7 @@ Here is a short list of libraries who helped me infinitely in my development pat
 [rnn]: https://github.com/react-navigation/react-navigation
 [rnm]: https://github.com/react-native-community/react-native-modal
 
-## 🤝 Contibution
+## 🤝 Contribution
 
 This repository is initially constructed as a minimum effort for a Persian language open-source Text-To-Speech solution. I would be highly grateful of any contribution from issues reporting to bugfixes and improvements.
 Please feel free to send pull requests in case of feeling any necessity.
