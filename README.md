@@ -23,7 +23,7 @@ The project is however meant to get gradual improvements over time.
   <a href="https://github.com/amfolio/persian-tts/releases">
     <img src="https://github.com/amfolio/persian-tts/raw/master/_docs/download-apk.png" height="35" />
   </a>
-  <a href="https://github.com/amfolio/persian-tts/raw/master/_docs/persian-tts-ui">
+  <a href="https://github.com/amfolio/persian-tts/raw/master/_docs/persian-tts-ui.sketch">
     <img src="https://github.com/amfolio/persian-tts/raw/master/_docs/download-ui.png" height="35" />
   </a>
   <a href="https://github.com/amfolio/persian-tts/raw/master/_docs/persian-tts-thesis-fa.pdf">
