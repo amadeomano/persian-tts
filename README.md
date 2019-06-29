@@ -19,6 +19,18 @@ The project is however meant to get gradual improvements over time.
   <img src="https://github.com/amfolio/persian-tts/raw/master/_docs/android.png" height="300">
 </p>
 
+<p align="center">
+  <a href="https://github.com/amfolio/persian-tts/releases">
+    <img src="https://github.com/amfolio/persian-tts/raw/master/_docs/download-apk.png" height="35" />
+  </a>
+  <a href="https://github.com/amfolio/persian-tts/raw/master/_docs/persian-tts-ui">
+    <img src="https://github.com/amfolio/persian-tts/raw/master/_docs/download-ui.png" height="35" />
+  </a>
+  <a href="https://github.com/amfolio/persian-tts/raw/master/_docs/persian-tts-thesis-fa.pdf">
+    <img src="https://github.com/amfolio/persian-tts/raw/master/_docs/download-thesis.png" height="35" />
+  </a>
+</p>
+
 ## Contents
 
 - [Requirements](#-requirements)
