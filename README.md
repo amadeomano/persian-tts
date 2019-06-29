@@ -24,7 +24,7 @@ The project is however meant to get gradual improvements over time.
 - [Requirements](#-requirements)
 - [Installation guide](#-installation-guide)
 - [Launching apps](#-launching-apps)
-- [Project structure](#-project-structure)
+- [Project structure](#⚙️-project-structure)
 - [How it works](#-how-it-works)
 - [Acknowledgments](#-acknowledgments)
 - [Contribution](#-contribution)
