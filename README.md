@@ -46,7 +46,7 @@ The project is however meant to get gradual improvements over time.
 Persian-TTS apps are powered by [React Native][rn] so you will need it for compiling the apps properly.
 To compile android version, having a proper [Android SDK][as] on your machine is a must and evidently compiling iOS varient needs you to have a working [Xcode][xc] copy and a functional [Cocoapods][cp] dependency management tool on a MacOS operating system powered machine.
 
-You will also need to have a dependency management tool for accessing NPM and download project's dependencies. [Yarn][yn] is preferrable for it's performance but [NPM][np] is also just fine.
+You will also need to have a dependency management tool for accessing NPM and download project's dependencies. [Yarn][yn] is used in this project but [NPM][np] or other tools could also be used.
 
 [rn]: https://github.com/facebook/react-native
 [as]: https://developer.android.com/studio
@@ -110,7 +110,9 @@ This project's structure is just identical to many other ReactNative project str
 
 Shortly the project uses a "concatnative synthesizing" apprach to achieve it's goal. In persian language, an unlimited set of words could be constructed by concatnating "consonant+vowel" pairs. For bravity here we call these pairs simply "Syllables".
 
-To make the synthesizing work, the project has initially a set of 169 syllable voices, recoded from my own voice (so it's not a professional narration 😅). this number is devided as bellow:
+To make the synthesizing work, the project has initially a set of 169 syllable voices, recoded from [my own voice][mv] (so it's not a professional narration 😅). this number is devided as bellow:
+
+[mv]: https://github.com/amfolio
 
 | Voice type                 | Corresponding files count |
 | -------------------------- | ------------------------: |
@@ -212,4 +214,9 @@ Here is a short list of libraries who helped me infinitely in my development pat
 ## 🤝 Contribution
 
 This repository is initially constructed as a minimum effort for a Persian language open-source Text-To-Speech solution. I would be highly grateful of any contribution from issues reporting to bugfixes and improvements.
+
+Contribution by adding more voices to the project is also highly welcomed and you can also mention your name in [voices.json][vj].
+
 Please feel free to send pull requests in case of feeling any necessity.
+
+[vj]: https://github.com/amfolio/persian-tts/blob/master/src/voices.json
